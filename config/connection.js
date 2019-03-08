@@ -13,8 +13,6 @@ if(process.env.JAWSDB_URL){
     });
 };
 
-connection.connect();
-
 // Make connection.
 connection.connect(function (err) {
     if (err) {
